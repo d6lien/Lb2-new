@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+.menu a {
+  float: left;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tabs input {
+  display: none;
+}
+
+.tabs label {
+  padding: 10px 20px;
+  background: lightgray;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.content {
+  border: 1px solid gray;
+  padding: 20px;
+  background: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+#tab1:checked ~ .content .c1 {
+  display: block;
+}
+
+#tab2:checked ~ .content .c2 {
+  display: block;
+}
+
+#tab3:checked ~ .content .c3 {
+  display: block;
+}
+
+.box {
+  margin-top: 40px;
+  background: white;
+  padding: 30px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: red;
+  color: white;
+  padding: 5px;
+}
