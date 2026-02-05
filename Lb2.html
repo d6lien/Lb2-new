@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛР2 CSS Вкладки</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    h1 {
+      text-align: center;
+      color: darkblue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Лабораторна робота №2 (CSS)</h1>
+
+  <p style="color: darkred; font-weight: bold;">
+    Це приклад inline стилю
+  </p>
+
+  <nav class="menu">
+    <a href="#">Головна</a>
+    <a href="#">Про нас</a>
+    <a href="#">Контакти</a>
+  </nav>
+
+  <div class="clear"></div>
+
+  <div class="tabs">
+
+    <input type="radio" name="tab" id="tab1" checked>
+    <label for="tab1">Вкладка 1</label>
+
+    <input type="radio" name="tab" id="tab2">
+    <label for="tab"2>Вкладка 2</label>
+
+    <input type="radio" name="tab" id="tab3">
+    <label for="tab3">Вкладка 3</label>
+
+    <div class="content">
+
+      <div class="tab-content c1">
+        <h2>Контент 1</h2>
+        <p>Це перша вкладка.</p>
+      </div>
+
+      <div class="tab-content c2">
+        <h2>Контент 2</h2>
+        <p>Це друга вкладка.</p>
+      </div>
+
+      <div class="tab-content c3">
+        <h2>Контент 3</h2>
+        <p>Це третя вкладка.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="box">
+    Я блок з position: relative
+    <div class="badge">ABS</div>
+  </div>
+
+</body>
+</html>
